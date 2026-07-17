@@ -52,7 +52,17 @@ Use analytics to understand the main causes of employee resignation and predict 
 | Recall (Attrition) | **0.745** | 0.553 |
 | F1 Score (Attrition) | 0.435 | 0.430 |
 
-**Recommended model: Logistic Regression** — despite lower overall accuracy, it catches far more employees who actually leave (74.5% recall vs. 55.3%), which matters more than raw accuracy in an attrition-prevention setting where missing an at-risk employee is costlier than a false alarm.
+**Recommended model: Logistic Regression** —despite lower overall accuracy, it catches far more employees who actually leave (74.5% recall vs. 55.3%), which matters more than raw accuracy in an attrition-prevention setting where missing an at-risk employee is costlier than a false alarm.
+
+### Key Insights from the Dashboard
+
+- **1,470** employees analyzed, **237** attritions (**16.1%** attrition rate)
+- Average employee age: **36.9** years; average monthly income: **$6.5K**
+- **Overtime employees leave far more often** 127 attritions among those working overtime vs. 110 among those who aren't, despite overtime being the minority group overall
+- **Gender split of leavers**: 150 male vs. 87 female
+- **Marital status of leavers**: Single employees make up the largest share (120, 50.6%), followed by Married (84, 35.4%) and Divorced (33, 13.9%) single employees are markedly more likely to leave
+- **Highest-attrition job roles**: Sales Representative (39.8%), Laboratory Technician (23.9%), Human Resources (23.1%), Sales Executive (17.5%), Research Scientist (16.1%)
+- **Job satisfaction**: level-1 (lowest satisfaction) employees account for a disproportionate share of attrition relative to their group size, alongside level-3 employees (30.8% of attritions)  satisfaction alone doesn't cleanly predict leaving, reinforcing why workload and tenure-based factors (overtime, working years) matter more in the model
 
 ### Top drivers of attrition (Decision Tree feature importance)
 
@@ -77,4 +87,11 @@ Full context, charts, and HR prevention recommendations for each driver are in `
    ```
 3. Open and run `HR_Analytics_Predict_Employee_Attrition/Analytics.ipynb` in Jupyter or VS Code.
 4. Open `HR_Analytics_Attrition.pbix` in Power BI Desktop to explore the dashboard.
+
+## Deliverables
+
+- [x] Power BI dashboard
+- [x] Model accuracy report + confusion matrix
+- [x] Attrition prevention recommendations (PPTX)
+-4. Open `HR_Analytics_Attrition.pbix` in Power BI Desktop to explore the dashboard.
 
