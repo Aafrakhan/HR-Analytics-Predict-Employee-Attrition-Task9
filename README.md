@@ -52,7 +52,7 @@ Use analytics to understand the main causes of employee resignation and predict 
 | Recall (Attrition) | **0.745** | 0.553 |
 | F1 Score (Attrition) | 0.435 | 0.430 |
 
-**Recommended model: Logistic Regression** —despite lower overall accuracy, it catches far more employees who actually leave (74.5% recall vs. 55.3%), which matters more than raw accuracy in an attrition-prevention setting where missing an at-risk employee is costlier than a false alarm.
+**Recommended model: Logistic Regression** despite lower overall accuracy, it catches far more employees who actually leave (74.5% recall vs. 55.3%), which matters more than raw accuracy in an attrition-prevention setting where missing an at-risk employee is costlier than a false alarm.
 
 ### Key Insights from the Dashboard
 
