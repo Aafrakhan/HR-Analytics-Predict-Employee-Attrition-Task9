@@ -74,24 +74,3 @@ Use analytics to understand the main causes of employee resignation and predict 
 6. Monthly Income
 
 Full context, charts, and HR prevention recommendations for each driver are in `HR_Attrition_Prevention_Reporting.pptx`.
-
-## How to Run
-
-1. Clone the repo:
-   ```
-   git clone https://github.com/Aafrakhan/HR-Analytics-Predict-Employee-Attrition-Task9.git
-   ```
-2. Install dependencies:
-   ```
-   pip install pandas numpy matplotlib seaborn scikit-learn shap
-   ```
-3. Open and run `HR_Analytics_Predict_Employee_Attrition/Analytics.ipynb` in Jupyter or VS Code.
-4. Open `HR_Analytics_Attrition.pbix` in Power BI Desktop to explore the dashboard.
-
-## Deliverables
-
-- [x] Power BI dashboard
-- [x] Model accuracy report + confusion matrix
-- [x] Attrition prevention recommendations (PPTX)
--4. Open `HR_Analytics_Attrition.pbix` in Power BI Desktop to explore the dashboard.
-
