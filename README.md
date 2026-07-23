@@ -8,7 +8,7 @@ Use analytics to understand the main causes of employee resignation and predict 
 
 ## Dataset
 
-[IBM HR Analytics Employee Attrition Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) (Kaggle) — 1,470 employee records, 16.1% overall attrition rate.
+[IBM HR Analytics Employee Attrition Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) (Kaggle) 1,470 employee records, 16.1% overall attrition rate.
 
 ## Tools
 
